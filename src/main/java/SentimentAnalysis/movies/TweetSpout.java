@@ -36,7 +36,7 @@ public class TweetSpout extends BaseRichSpout {
         //endpoint.locations(Lists.newArrayList(
         //  new Location(new Location.Coordinate(-122.75, 36.8), new Location.Coordinate(-121.75, 37.8))));
 
-        Authentication auth = new OAuth1("pFHyz42K2bOYHdufeI0DdF6tz", "glCgvfuqM0M8k9rLaYTHW4gfO1HmQ9HvLLMfS7S2N6JHLJBRRv", "810170787692969984-GQ4y9UmRyVopZDXjNbKGykO1VbDCuIV", "yGcEGDKepg1YHSpLXkXYyJC3VvOsoHYkg8qIsm2LJcGxM");
+        Authentication auth = new OAuth1("", "", "", "");
         // Authentication auth = new BasicAuth(username, password);
 
         // Create a new BasicClient. By default gzip is enabled.
